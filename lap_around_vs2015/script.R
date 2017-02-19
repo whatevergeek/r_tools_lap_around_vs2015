@@ -1,3 +1,5 @@
+# Data source is from http://openflights.org/data.html
+
 airports <- read.csv("airports.dat", header = FALSE, stringsAsFactors = FALSE)
 colnames(airports) <- c("ID", "name", "city", "country", 
                         "IATA_FAA", "ICAO", "lat", "lon", 
